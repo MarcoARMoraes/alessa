@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Kanit&family=Nunito+Sans:wght@300&family=Pinyon+Script&family=Playball&family=Sono&display=swap');
+
+
+
+:root{
+    --fonte-bonita: 'Lobster'
+}
+
+body {
+    font-family: sans-serif;
+    padding-top: -20px;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border: 2px solid #5d3021;
+    background-color: white;
+    color: #5d3021;
+    font-size: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 125px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button:hover{
+    transition: .5s;
+    background-color: #ab7e6a;
+    color: white;
+    border: #ab7e6a;
+}
+
+.btn-txt{
+    display: flexbox;
+
+}
+
+/* Início navbar */
+nav {
+    background: #facdb4;
+    height: 95px;
+    width: 100%;
+    justify-content: center;
+}
+
+label.logo {
+    color: #5d3021;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    margin-left: -8%;
+    margin-top: 4px;
+    font-family: 'Pinyon Script', cursive;
+}
+
+nav ul {
+    float: right; /* joga o conteúdo para a direita*/
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+nav ul li {
+    display: inline-block; /* Coloca as palavras na mesma linha */
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #5d3021;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', serif;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: white;
+    background: #ab7e6a;
+}
+
+/*-----SUBMENU NAVBAR----*/
+
+
+
+/*-----FIM SUBMENU NAVBAR----*/
+
+a.active, a:hover {
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #5d3021;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check { /* Identificador no input checbox */
+    display: none;
+}
+
+/* FIM NAVBAR*/
+
+/* INÍCIO DO BANNER */
+.slider {
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    align-self: center;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 800px;
+}
+
+.manual-navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn {
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background-color: #FFF;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid #20a6ff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 70px;
+}
+
+.navigation-auto {
+    position: absolute;
+    width: 800px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child) {
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: white;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: white;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: white;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: white;
+}
+/* FIM DO BANNER */
+
+/* INÍCIO DO CONTEÚDO */
+.container-textos {
+    margin-top: 10px;
+    margin-left: 230px;
+    display: grid;
+    grid-template-columns: 200px 380px 200px;
+    grid-auto-rows: 70px;
+    justify-items: center;
+}
+
+#h4-textos {
+    color: #5d3021;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playball',sans-serif;
+    text-align: center;
+    width: 120px;
+}
+
+#p-textos {
+    text-align: center;
+    width: 150px;
+    font-size: 15px;
+    font-family: sans, serif;
+    font-family: 'Nunito Sans',sans-serif;
+}
+
+#btn-textos{
+    margin-top: 30px;
+}
+
+/* FIM CONTEÚDOS */
+
+/* INÍCIO REDES SOCIAIS*/
+.container-sociais {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    font-family: 'Nunito Sans';
+    margin-top: 30px;
+}
+
+.container-sociais a{
+    color: #5d3021;
+    font-weight: bold;
+    height: 2px;
+    margin-top: 10px;
+    margin-left: 265%;
+    padding-bottom: 30px;
+}
+
+.container-sociais a:hover{
+    color: white;
+    width: 38%;
+    align-items: center;
+    background-color: #ab7e6a;
+}
+
+.container-icones-sociais a:hover{
+    height: 1px;
+}
+
+.container-icoes-sociais{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-left: 39.5%;
+}
+
+#img-facebook {
+    height: 70px;
+}
+#img-instagram {
+    height: 77px;
+}    
+/* FIM REDES SOCIAIS */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5d3021;
+    background: #facdb4;
+    height: 180px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Nunito Sans';
+}
+
+footer h2{
+    padding-top: 25px;
+}
+
+footer p {
+    font-weight: bold;
+    padding-top: 1%;
+}
+
+/* -------------FIM DA INDEX---------------*/
+
+/*----------INÍCIO DA CONTATOS----------*/
+.container-contatos{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-contatos h2{
+    color: #5d3021;
+}
+
+.container-contatos p{
+    margin-left: 0px;
+    font-weight: bold;
+    color:#5d3021;
+}
+
+.container-contatos a{
+    font-weight: bold;
+    color:#5d3021;
+}
+
+.container-contatos a:hover{
+    background-color: #ab7e6a;
+    color: white;
+}
+
+.icone-whatsapp{
+    height: 70px;
+    margin-left: 640px;
+    margin-top: 10px;
+}
+
+/*----------FIM DA CONTATOS----------*/
+
+/*-----INÍCIO DA SOBRE------*/
+.container-sobre-mim {
+    margin-top: 3%;
+    text-align: left;
+    align-items: center;
+    margin-left: 30%;
+    width: 500px;
+}
+.container-sobre-mim h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Playball';
+    color: #5d3021;
+}
+.container-sobre-mim p{
+    text-align: justify;
+    text-indent: 40px;
+    font-family: 'Nunito Sans';
+    color: #5d3021;
+}
+
+.container-sobre-mim img{
+    height: 400px;
+    margin-left: 27%;
+}
+/*-----FIM DA SOBRE------*/
+
+/*----INÍCIO PÁGINA MEDIAÇÃO*/
+.container-mediacao {
+    margin-top: 2%;
+    text-align: left;
+    align-items: center;
+    margin-left: 30%;
+    width: 500px;
+}
+.container-mediacao h2{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Playball';
+    color: #5d3021;
+}
+
+.container-mediacao h4{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Playball';
+    color: #5d3021;
+}
+
+.container-mediacao p{
+    margin-top: -5px;
+    text-indent: 40px;
+    font-family: 'Nunito Sans';
+    color: #5d3021;
+}
+
+.container-mediacao img{
+    height: 450px;
+    margin-left: 5%;
+}
+
+/*----FIM PÁGINA MEDIAÇÃO*/
+
+/*--------INÍCIO NO CARTORIO--------*/
+.container-celebra-cartorio {
+    margin-top: 2%;
+    text-align: left;
+    align-items: center;
+    margin-left: 30%;
+    width: 500px;
+}
+.container-celebra-cartorio h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Playball';
+    color: #5d3021;
+}
+.container-celebra-cartorio p{
+    text-indent: 40px;
+    font-family: 'Nunito Sans';
+    color: #5d3021;
+    margin-top: -10px;
+}
+
+.container-celebra-cartorio img{
+    height: 400px;
+    margin-left: 5%;
+}
+
+/*--------FIM NO CARTORIO--------*/
+
+/*--------INÍCIO OUTRO LOCAL--------*/
+.container-celebra-outro-local {
+    margin-top: 2%;
+    text-align: left;
+    align-items: center;
+    margin-left: 30%;
+    width: 500px;
+}
+.container-celebra-outro-local h2{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Playball';
+    color: #5d3021;
+}
+.container-celebra-outro-local p{
+    margin-top: -5px;
+    text-indent: 40px;
+    font-family: 'Nunito Sans';
+    color: #5d3021;
+}
+
+.container-celebra-outro-local img{
+    height: 500px;
+    margin-left: 10%;
+}
+/*--------FIM OUTRO LOCAL--------*/
+
+/*-----OUTRAS RESOLUÇÕES------*/
+@media (max-width: 952px){ /* Resolução tablet */
+    body{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px){ /* Resolução smartphone */
+    body{
+        width: 100%;
+        max-width: 100vw;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    
+    button{
+        margin-left: 50px;
+    }
+    
+    .checkbtn {
+        display: block;
+    }
+    label.logo{
+        font-size: 35px;
+    }
+    nav div img {
+        height: 70px;
+        width: 50px;
+        margin-top: 2%;
+    }
+    nav {
+        margin-top: -2px;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #facdb4;
+        top: 76px; /* para que o menu apareça embaixo da navbar */
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:active, a:hover {
+        background: none;
+        color: #ab7e6a;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    .slider {
+        display: none;
+    }
+    .container-textos {
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: -36px;
+        display: inline-grid;
+        grid-template-columns: 150px 150px 150px;
+    }
+    #h4-textos {
+        color: #5d3021;
+        margin-left: 16%;
+        margin-top: 5%;
+        margin-bottom: 7%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: 'Playball',sans-serif;
+        font-size: 20px;
+    }
+    #p-textos {
+        text-align: center;
+        margin-left: 14%;
+        margin-bottom: 10%;
+        width: 150px;
+        font-size: 12px;
+        font-family: sans, serif;
+        font-family: 'Nunito Sans',sans-serif;
+        margin-top: -2px;
+    }
+    #btn-textos{
+        margin-top: -10%;
+    }
+
+    .container-sociais {
+        display: flex;
+        font-family: 'Nunito Sans';
+    }
+    .container-sociais a{
+        color: #5d3021;
+        font-weight: bold;
+        height: 2px;
+        margin-top: 10px;
+        margin-left: 25%;
+        padding-bottom: 30px;
+    }
+    .container-icoes-sociais{
+        display: grid;
+        grid-template-columns: auto 175px;
+        margin-left: 25.5%;
+    }
+    #img-facebook {
+        height: 55px;
+    }
+    #img-instagram {
+        height: 62px;
+    }
+
+    footer h2{
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}
