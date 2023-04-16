@@ -506,7 +506,8 @@ footer p {
         display: block;
     }
     label.logo{
-        font-size: 35px;
+        font-size: 25px;
+        margin-top: -20px;
     }
     nav div img {
         height: 70px;
@@ -545,17 +546,22 @@ footer p {
         display: none;
     }
     .container-textos {
-        margin-left: 10px;
+        margin-left: -160px;
         margin-top: 10px;
-        margin-bottom: -36px;
-        display: inline-grid;
-        grid-template-columns: 150px 150px 150px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
     }
+
+    .container-textos div{
+        height: 900px;
+        display:contents    
+    }
+
     #h4-textos {
         color: #5d3021;
         margin-left: 16%;
-        margin-top: 5%;
-        margin-bottom: 7%;
+        margin-top: 20px;
         justify-content: center;
         text-align: center;
         align-items: center;
@@ -565,18 +571,19 @@ footer p {
     #p-textos {
         text-align: center;
         margin-left: 14%;
-        margin-bottom: 10%;
         width: 150px;
         font-size: 12px;
         font-family: sans, serif;
         font-family: 'Nunito Sans',sans-serif;
-        margin-top: -2px;
+        margin-top: 15px;
     }
     #btn-textos{
-        margin-top: -10%;
+        margin-top: 7px;
+        margin-left: 100px;
     }
 
     .container-sociais {
+        margin-left: -60px;
         display: flex;
         font-family: 'Nunito Sans';
     }
@@ -590,8 +597,8 @@ footer p {
     }
     .container-icoes-sociais{
         display: grid;
-        grid-template-columns: auto 175px;
-        margin-left: 25.5%;
+        grid-template-columns: auto -120px;
+        margin-left: 85px;
     }
     #img-facebook {
         height: 55px;
@@ -601,10 +608,12 @@ footer p {
     }
 
     footer h2{
+        margin-left: -60px;
         font-size: 20px;
         padding-bottom: 5px;
     }
     footer p{
+        margin-left: -60px;
         font-size: 13px;
     }
 }
