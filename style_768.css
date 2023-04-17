@@ -245,10 +245,11 @@
         margin-top: 2%;
         align-items: center;
         margin-left: 38%;
+        width: 420px;
     }
     .container-celebra-cartorio h2{
         margin-top: 20px;
-        margin-left: -60%;
+        margin-left: -46%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
@@ -260,7 +261,7 @@
         color: #5d3021;
         margin-top: -10px;
         margin-left: -20%;
-        width: 75%;
+        width: 95%;
         text-align: justify;
     }
     
@@ -421,7 +422,7 @@
 
     #btn-textos{
         margin-top: 14%;
-        margin-left: 135px;
+        margin-left: 115px;
     }
 
     .container-sociais {
@@ -492,23 +493,25 @@
         text-align: left;
         align-items: center;
         margin-left: 30%;
+        width: 200px;
     }
     .container-sobre-mim h2{
         text-align: center;
-        margin-left: -40%;
+        margin-left: 16%;
         margin-bottom: 20px;
         margin-top: 20px;
         font-family: 'Playball';
         color: #5d3021;
+        width: 250px;
     }
     .container-sobre-mim p{
-        margin-left: -15%;
+        margin-left: -25%;
         font-size: 90%;
         text-align: justify;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 80%;
+        width: 180%;
     }
     
     .container-sobre-mim img{
@@ -521,24 +524,26 @@
         text-align: left;
         align-items: center;
         margin-left: 28%;
-        
+        width: 250px;
     }
     .container-mediacao h2{
         margin-top: 20px;
         text-align: center;
         margin-bottom: 20px;
-        margin-left: -55%;
+        margin-left: -42%;
         font-family: 'Playball';
         color: #5d3021;
+        width: 200%;
     }
     
     .container-mediacao h4{
         margin-top: 10px;
-        margin-left: -58%;
+        margin-left: -38%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
+        width: 200%;
     }
     
     .container-mediacao p{
@@ -547,7 +552,7 @@
         font-family: 'Nunito Sans';
         color: #5d3021;
         margin-left: -20%;
-        width: 80%;
+        width: 150%;
         text-align: justify;
     }
     
@@ -560,11 +565,12 @@
         margin-top: 2%;
         align-items: center;
         margin-left: 32%;
+        width: 50%;
         
     }
     .container-celebra-cartorio h2{
         margin-top: 20px;
-        margin-left: -60%;
+        margin-left: -30%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
@@ -575,14 +581,15 @@
         font-family: 'Nunito Sans';
         color: #5d3021;
         margin-top: -10px;
-        margin-left: -20%;
+        margin-left: -35%;
         width: 75%;
         text-align: justify;
+        width: 140%;
     }
     
     .container-celebra-cartorio img{
         height: 350px;
-        margin-left: -20%;
+        margin-left: -30%;
     }
 
     .container-celebra-outro-local {
@@ -590,24 +597,25 @@
         text-align: left;
         align-items: center;
         margin-left: 30%;
-        
+        width: 50%;
     }
     .container-celebra-outro-local h2{
-        margin-top: 10px;
-        margin-left: -62%;
+        margin-top: 20px;
+        margin-left: -30%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
     }
     .container-celebra-outro-local p{
-        margin-top: -5px;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
+        margin-top: -10px;
+        margin-left: -35%;
+        width: 75%;
         text-align: justify;
-        margin-left: -20%;
-        width: 78%;
+        width: 140%;
     }
     
     .container-celebra-outro-local img{
@@ -748,7 +756,7 @@
 
     #btn-textos{
         margin-top: 14%;
-        margin-left: 135px;
+        margin-left: 112px;
     }
 
     .container-sociais {
@@ -826,7 +834,7 @@
     }
     .container-sobre-mim h2{
         text-align: center;
-        margin-left: -45%;
+        margin-left: 15%;
         margin-bottom: 20px;
         margin-top: 20px;
         font-family: 'Playball';
@@ -834,18 +842,18 @@
         font-size: 150%;
     }
     .container-sobre-mim p{
-        margin-left: -15%;
+        margin-left: -12%;
         font-size: 75%;
         text-align: justify;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 80%;
+        width: 160%;
     }
     
     .container-sobre-mim img{
         height: 450px;
-        margin-left: 0;
+        margin-left: 10%;
     }
 
     .container-mediacao {
@@ -899,22 +907,23 @@
     }
     .container-celebra-cartorio h2{
         margin-top: 20px;
-        margin-left: -60%;
+        margin-left: -26%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
         font-size: 160%;
+        width: 150%;
     }
     .container-celebra-cartorio p{
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
         margin-top: -10px;
-        margin-left: -20%;
-        width: 75%;
+        margin-left: -22%;
         text-align: justify;
         font-size: 80%;
+        width: 140%;
     }
     
     .container-celebra-cartorio img{
@@ -931,22 +940,23 @@
     }
     .container-celebra-outro-local h2{
         margin-top: 10px;
-        margin-left: -62%;
+        margin-left: -36%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
         font-size: 160%;
+        width: 150%;
     }
     .container-celebra-outro-local p{
-        margin-top: -5px;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
+        margin-top: -10px;
+        margin-left: -28%;
         text-align: justify;
-        margin-left: -20%;
-        width: 78%;
         font-size: 80%;
+        width: 140%;
     }
     
     .container-celebra-outro-local img{
