@@ -43,7 +43,7 @@
     <ul>
       <li><a href="index.html">Inicio</a></li>
       <li><a href="sobre_mim.html">Sobre</a></li>
-      <li><a href="servicos.html">Servicos</a>
+      
         <!--<ul>
           <li><a href="no_cartorio.html">No cartorio</a></li>
           <li><a href="outro_local.html">Outro local</a></li>
@@ -55,8 +55,8 @@
     </ul>
   </nav>
   
-<div class="container-mediacao">
-  <img id="foto-mediadora" src="imagens/certificado_icfml.PNG" alt="">
+<div class="container-mediacao" id="mediacao-fade">
+  <img id="foto-mediadora" class="fade" src="imagens/certificado_mediadora_novo.png" alt="">
     <h2>Mediadora de conflitos - ICFML</h2>
     <h4>O que significa media&ccedil;&atilde;o de conflitos?</h4>
     <p>A Media&ccedil;&atilde;o &eacute; uma forma de solu&ccedil;&atilde;o de conflitos na qual uma terceira pessoa, neutra e imparcial, facilita o di&aacute;logo entre as partes, para que elas construam, com autonomia e solidariedade, a melhor solu&ccedil;&atilde;o para o conflito. Em regra, &eacute; utilizada em conflitos multidimensionais ou complexos. (Portal CJN)</p>
@@ -85,6 +85,14 @@
             <p>2023 - Todos os Direitos reservados</p>
         </footer>
     
+    <script>
+      let element = document.getElementById("foto-mediadora");
+      let opacity = 0;
+      let fadeIn = setInterval(() => {
+      element.style.opacity = opacity;
+      opacity += 0.01;
+      }, 15);
+    </script>
     <script src="script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

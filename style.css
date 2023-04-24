@@ -11,6 +11,8 @@ body {
     padding-top: -20px;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    
 }
 
 button{
@@ -221,11 +223,12 @@ a.active, a:hover {
 .container-textos {
     margin-top: 10px;
     margin-bottom: 200px;
-    margin-left: 230px;
+    margin-left: 0;
     display: grid;
-    grid-template-columns: 200px 380px 200px;
+    grid-template-columns: 100px 100px 100px;
     grid-auto-rows: 70px;
     justify-items: center;
+    justify-content: space-evenly;
 }
 
 #h4-textos {
@@ -238,6 +241,7 @@ a.active, a:hover {
 }
 
 #p-textos {
+    margin-left: -10%;
     text-align: center;
     width: 150px;
     font-size: 15px;
@@ -352,13 +356,15 @@ footer p {
 /*----------FIM DA CONTATOS----------*/
 
 /*-----INÍCIO DA SOBRE------*/
+
 .container-sobre-mim {
-    margin-top: 3%;
-    text-align: left;
-    align-items: center;
-    margin-left: 30%;
-    width: 500px;
+    margin-top: 2%;
+    text-align: justify;
+    width: 610px;
+    justify-content: center;
+    margin-left: 25%;
 }
+
 .container-sobre-mim h2{
     text-align: center;
     margin-bottom: 20px;
@@ -366,6 +372,7 @@ footer p {
     font-family: 'Playball';
     color: #5d3021;
 }
+
 .container-sobre-mim p{
     text-align: justify;
     text-indent: 40px;
@@ -374,18 +381,17 @@ footer p {
 }
 
 .container-sobre-mim img{
-    height: 400px;
-    margin-left: 27%;
+    margin-left: 0%;
 }
 /*-----FIM DA SOBRE------*/
 
 /*----INÍCIO PÁGINA MEDIAÇÃO*/
 .container-mediacao {
     margin-top: 2%;
-    text-align: left;
-    align-items: center;
-    margin-left: 30%;
-    width: 500px;
+    text-align: justify;
+    width: 610px;
+    justify-content: center;
+    margin-left: 25%;
 }
 .container-mediacao h2{
     margin-top: 10px;
@@ -410,20 +416,15 @@ footer p {
     color: #5d3021;
 }
 
-.container-mediacao img{
-    height: 450px;
-    margin-left: 5%;
-}
-
 /*----FIM PÁGINA MEDIAÇÃO*/
 
 /*--------INÍCIO NO CARTORIO--------*/
 .container-celebra-cartorio {
     margin-top: 2%;
-    text-align: left;
-    align-items: center;
-    margin-left: 30%;
-    width: 500px;
+    text-align: justify;
+    width: 610px;
+    justify-content: center;
+    margin-left: 25%;
 }
 .container-celebra-cartorio h2{
     margin-top: 20px;
@@ -440,8 +441,7 @@ footer p {
 }
 
 .container-celebra-cartorio img{
-    height: 400px;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 /*--------FIM NO CARTORIO--------*/
@@ -449,10 +449,10 @@ footer p {
 /*--------INÍCIO OUTRO LOCAL--------*/
 .container-celebra-outro-local {
     margin-top: 2%;
-    text-align: left;
-    align-items: center;
-    margin-left: 30%;
-    width: 500px;
+    text-align: justify;
+    width: 610px;
+    justify-content: center;
+    margin-left: 25%;
 }
 .container-celebra-outro-local h2{
     margin-top: 10px;
@@ -469,8 +469,7 @@ footer p {
 }
 
 .container-celebra-outro-local img{
-    height: 500px;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 /*--------FIM OUTRO LOCAL--------*/
 
