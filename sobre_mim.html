@@ -56,7 +56,7 @@
   </nav>
   
   <div class="container-sobre-mim">
-    <img src="imagens/juiza_jardim_novo.png" alt="">
+    <img id="juiza_jardim" src="imagens/juiza_jardim_novo.png" alt="">
     <h2>Sobre mim</h2>
     <p>Formada em Direito pela UNESA/RJ em 2009. <strong>Ju&iacute;za de Paz</strong> nomeada pelo TJ/RJ com atua&ccedil;&atilde;o na &aacute;rea desde 2017. <strong>Mediadora internacional</strong> certificada pelo Instituto de Certifica&ccedil;&atilde;o e Forma&ccedil;&atilde;o Mediadores Lus&oacute;fonos (ICFML). <strong>P&oacute;s-graduada em Negocia&ccedil;&atilde;o, Media&ccedil;&atilde;o e Resolu&ccedil;&atilde;o de Conflitos</strong> pela Universidade Cat&oacute;lica Portuguesa - Porto, Portugal em parceria com o ICFML, desde 2020. <strong>Mediadora Judicial</strong> do CEJUSC/RJ e extrajudicial ad hoc.  Atuei como escrevente do 5? RCPN/RJ por 10 anos.</p>
   </div>
@@ -83,6 +83,14 @@
             <p>2023 - Todos os Direitos reservados</p>
         </footer>
     
+    <script>
+      let element = document.getElementById("juiza_jardim");
+      let opacity = 0;
+      let fadeIn = setInterval(() => {
+      element.style.opacity = opacity;
+      opacity += 0.01;
+      }, 15);
+    </script>
     <script src="script.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
