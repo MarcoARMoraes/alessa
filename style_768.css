@@ -23,9 +23,9 @@
 
     #logo{
         color: #5d3021;
-        font-size: 30px;
-        width: 370px;
-        margin-left: -10px;
+        font-size: 40px;
+        width: 480px;
+        margin-left: 96px;
         
         line-height: 80px;
         padding: 0 100px;
@@ -93,7 +93,7 @@
 
     #h4-textos {
         color: #5d3021;
-        margin-left: 16%;
+        margin-left: 10%;
         margin-top: 4%;
         justify-content: center;
         text-align: center;
@@ -104,7 +104,7 @@
 
     #p-textos {
         text-align: center;
-        margin-left: 15%;
+        margin-left: 11%;
         width: 170px;
         font-size: 16px;
         font-family: sans, serif;
@@ -114,7 +114,7 @@
 
     #btn-textos{
         margin-top: 14%;
-        margin-left: 90px;
+        margin-left: 96px;
     }
 
     .container-sociais {
@@ -139,7 +139,7 @@
         height: 55px;
     }
     #img-instagram {
-        height: 62px;
+        height: 60px;
     }
 
     .container-contatos{
@@ -185,30 +185,31 @@
         align-items: center;
         justify-content: center;
         margin-left: 24%;
+        width: 75%;
     }
     .container-sobre-mim h2{
         text-align: center;
-        margin-left: -42%;
+        margin-left: -31%;
         margin-bottom: 20px;
         margin-top: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 160%;
+        font-size: 260%;
     }
     .container-sobre-mim p{
-        margin-left: -15%;
-        font-size: 90%;
+        margin-left: -23%;
+        font-size: 120%;
         text-align: justify;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 80%;
+        width: 115%;
     }
     
     .container-sobre-mim img{
         margin-top: 20px;
-        height: 300px;
-        margin-left: -8%;
+        height: 550px;
+        margin-left: -19%;
     }
 
     .container-mediacao {
@@ -221,38 +222,40 @@
 
     .container-mediacao h2{
         margin-top: 20px;
-        margin-left: -145px;
+        margin-left: -80px;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 160%;
+        font-size: 260%;
+        width: 200%;
     }
     
     .container-mediacao h4{
         margin-top: 10px;
-        margin-right: -20px;
+        margin-left: -7%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 130%;
+        font-size: 170%;
+        width: 150%;
     }
     
     .container-mediacao p{
         margin-top: -5px;
-        font-size: 90%;
+        font-size: 120%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 160%;
+        width: 240%;
         text-align: justify;
-        margin-left: -155px;
+        margin-left: -145px;
     }
     
     #foto-mediadora{
-        height: 300px;
-        margin-left: -35%;
+        height: 550px;
+        margin-left: -41%;
     }
 
     .container-celebra-cartorio {
@@ -264,27 +267,28 @@
     }
     .container-celebra-cartorio h2{
         margin-top: 20px;
-        margin-left: -145px;
+        margin-left: -90px;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 160%;
+        font-size: 260%;
+        width: 200%;
     }
     .container-celebra-cartorio p{
         margin-top: -5px;
-        font-size: 90%;
+        font-size: 120%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 160%;
+        width: 240%;
         text-align: justify;
-        margin-left: -155px;
+        margin-left: -146px;
     }
     
     .container-celebra-cartorio img{
-        height: 300px;
-        margin-left: -35%;
+        height: 550px;
+        margin-left: -41%;
     }
 
     .container-celebra-outro-local {
@@ -296,27 +300,28 @@
     }
     .container-celebra-outro-local h2{
         margin-top: 20px;
-        margin-left: -145px;
+        margin-left: -90px;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 160%;
+        font-size: 260%;
+        width: 200%;
     }
     .container-celebra-outro-local p{
         margin-top: -5px;
-        font-size: 90%;
+        font-size: 120%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 160%;
+        width: 240%;
         text-align: justify;
-        margin-left: -155px;
+        margin-left: -146px;
     }
     
     .container-celebra-outro-local img{
-        height: 300px;
-        margin-left: -35%;
+        height: 550px;
+        margin-left: -41%;
     }
 
 
