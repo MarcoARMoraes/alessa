@@ -1,4 +1,13 @@
-@media screen and (max-width: 1200px){ /* Resolução smartphone */
+/*
+Resoluções utilizadas
+1200
+768
+436
+361
+*/
+
+
+@media only screen and (max-width: 1200px){ /* Resolução smartphone */
     html{
         height: -webkit-fill=available;
     }
@@ -357,7 +366,7 @@
 
 /*-------RESOLUÇÃO SMARTPHONE COMUM DEITADO*/
 
-@media screen and (max-width: 776px){ /* Resolução smartphone */
+@media only screen and (max-width: 768px){ /* Resolução smartphone */
     html{
         height: -webkit-fill=available;
     }
@@ -707,7 +716,7 @@
 
 /*-------------RESOLUÇÃO SMARTPHONE ATUAL EM PÉ------------*/
 
-@media screen and (max-width: 768px){ /* Resolução smartphone */
+@media only screen and (max-width: 651px){ /* Resolução smartphone */
     html{
         height: -webkit-fill=available;
     }
@@ -732,15 +741,15 @@
 
     #logo{
         color: #5d3021;
-        font-size: 40px;
-        width: 480px;
+        font-size: 30px;
+        width: 360px;
         margin-left: 96px;
         
         line-height: 80px;
         padding: 0 100px;
         font-weight: bold;
         
-        margin-top: 4px;
+        margin-top: 8px;
         font-family: 'Pinyon Script', cursive;
     }
     
@@ -1055,7 +1064,7 @@
 }
 
 /*------------------RESOLUÇÃO 436PX-----------------------------*/
-@media screen and (max-width: 436px){ /* Resolução smartphone */
+@media only screen and (max-width: 436px){ /* Resolução smartphone */
     html{
         height: -webkit-fill=available;
     }
@@ -1405,7 +1414,7 @@
 
 /*------------------RESOLUÇÃO 361PX-----------------------------*/
 
-@media (max-width: 361px){ /* Resolução smartphone */
+@media only screen and (max-width: 361px){ /* Resolução smartphone */
     
     body{
         width: 100%;
