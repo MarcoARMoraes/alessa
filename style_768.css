@@ -331,7 +331,7 @@
     }
 }
 
-/*------------------RESOLUÇÃO 600PX-----------------------------*/
+/*------------------RESOLUÇÃO 436PX-----------------------------*/
 @media screen and (max-width: 436px){ /* Resolução smartphone */
     html{
         height: -webkit-fill=available;
@@ -355,6 +355,11 @@
         margin-left: -60px;
     }
 
+    #check{
+        margin-left: -750px;
+        width: 250px;
+    }
+
     #logo{
         color: #5d3021;
         font-size: 29px;
@@ -374,7 +379,7 @@
         width: 50px;
         margin-top: 2%;
         margin-right: 0px;
-        margin-left: -10px;
+        margin-left: 8px;
     }
     nav {
         margin-top: -2px;
@@ -525,10 +530,11 @@
         align-items: center;
         justify-content: center;
         margin-left: 24%;
+        width: 75%;
     }
     .container-sobre-mim h2{
         text-align: center;
-        margin-left: -52%;
+        margin-left: -31%;
         margin-bottom: 20px;
         margin-top: 20px;
         font-family: 'Playball';
@@ -536,19 +542,19 @@
         font-size: 160%;
     }
     .container-sobre-mim p{
-        margin-left: -12%;
+        margin-left: -21%;
         font-size: 90%;
         text-align: justify;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 70%;
+        width: 110%;
     }
     
     .container-sobre-mim img{
         margin-top: 20px;
         height: 300px;
-        margin-left: -10%;
+        margin-left: -17%;
     }
 
     .container-mediacao {
@@ -556,7 +562,7 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 280px;
+        width: 270px;
     }
 
     .container-mediacao h2{
@@ -600,7 +606,7 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 280px;
+        width: 270px;
     }
     .container-celebra-cartorio h2{
         margin-top: 20px;
@@ -632,7 +638,7 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 280px;
+        width: 270px;
     }
     .container-celebra-outro-local h2{
         margin-top: 20px;
