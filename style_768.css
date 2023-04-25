@@ -475,14 +475,14 @@
     }
     .container-icoes-sociais{
         display: grid;
-        grid-template-columns: 52% auto;
-        margin-left: 25%;
+        grid-template-columns: 61% auto;
+        margin-left: 20%;
     }
     #img-facebook {
         height: 55px;
     }
     #img-instagram {
-        height: 58px;
+        height: 60px;
     }
 
     .container-contatos{
