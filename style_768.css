@@ -1,3 +1,355 @@
+/*-------RESOLUÇÃO SMARTPHONE COMUM DEITADO*/
+
+@media screen and (max-width: 774px){ /* Resolução smartphone */
+    html{
+        height: -webkit-fill=available;
+    }
+    body{
+        width: 100%;
+        max-width: 100vw;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: -webkit-fill=available;
+    }
+    
+    button{
+        margin-left: 50px;
+    }
+    
+    .checkbtn {
+        display: block;
+        margin-right: 10px;
+        margin-left: -60px;
+    }
+
+    #logo{
+        color: #5d3021;
+        font-size: 40px;
+        width: 480px;
+        margin-left: 96px;
+        
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+        
+        margin-top: 4px;
+        font-family: 'Pinyon Script', cursive;
+    }
+    
+    nav div img {
+        height: 70px;
+        width: 50px;
+        margin-top: 2%;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    nav {
+        margin-top: -2px;
+        width: 100%;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #facdb4;
+        top: 76px; /* para que o menu apareça embaixo da navbar */
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    a:active, a:hover {
+        background: none;
+        color: #ab7e6a;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    .slider {
+        display: none;
+    }
+    .container-textos {
+        margin-left: -95px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: -5%;
+        row-gap: 20px;
+    }
+
+    .container-textos div{
+        height: 900px;
+        display: contents;    
+    }
+
+    #h4-textos {
+        color: #5d3021;
+        margin-left: 10%;
+        margin-top: 4%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: 'Playball',sans-serif;
+        font-size: 26px;
+    }
+
+    #p-textos {
+        text-align: center;
+        margin-left: 11%;
+        width: 170px;
+        font-size: 16px;
+        font-family: sans, serif;
+        font-family: 'Nunito Sans',sans-serif;
+        margin-top: 3%;
+    }
+
+    #btn-textos{
+        margin-top: 14%;
+        margin-left: 96px;
+    }
+
+    .container-sociais {
+        margin-left: -60px;
+        display: flex;
+        font-family: 'Nunito Sans';
+        margin-top: 10%;
+    }
+    .container-sociais a{
+        color: #5d3021;
+        font-weight: bold;
+        height: 2px;
+        margin-top: 10px;
+        margin-left: 29%;
+        padding-bottom: 30px;
+    }
+    .container-icoes-sociais{
+        display: grid;
+        grid-template-columns: 52% auto;
+        margin-left: 25%;
+    }
+    #img-facebook {
+        height: 55px;
+        margin-bottom: 13%;
+    }
+    #img-instagram {
+        height: 60px;
+    }
+
+    .container-contatos{
+        align-items: center;
+        text-align: center;
+        margin-top: 10%;
+    }
+    
+    .container-contatos h2{
+        color: #5d3021;
+        margin-left: 2%;
+        font-size: 260%;
+        margin-top: 10%;
+    }
+    
+    .container-contatos p{
+        margin-left: 0px;
+        font-weight: bold;
+        color:#5d3021;
+        margin-top: 25%;
+    }
+    
+    .container-contatos a{
+        margin-left: 0;
+        font-weight: bold;
+        color:#5d3021;
+    }
+    
+    .container-contatos a:hover{
+        background-color: #ab7e6a;
+        color: white;
+    }
+    
+    .icone-whatsapp{
+        height: 62px;
+        margin-left: 46%;
+        margin-top: 10px;
+        margin-bottom: 10%;
+    }
+
+    #icone-social{
+        width: 13%;
+        margin-bottom: 10%;
+    }
+
+    .container-sobre-mim {
+        margin-top: 0;
+        align-items: center;
+        justify-content: center;
+        margin-left: 24%;
+        width: 75%;
+    }
+    .container-sobre-mim h2{
+        text-align: center;
+        margin-left: -31%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family: 'Playball';
+        color: #5d3021;
+        font-size: 260%;
+    }
+    .container-sobre-mim p{
+        margin-left: -23%;
+        font-size: 120%;
+        text-align: justify;
+        text-indent: 40px;
+        font-family: 'Nunito Sans';
+        color: #5d3021;
+        width: 115%;
+    }
+    
+    .container-sobre-mim img{
+        margin-top: 20px;
+        height: 550px;
+        margin-left: -19%;
+    }
+
+    .container-mediacao {
+        margin-top: 2%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 280px;
+    }
+
+    .container-mediacao h2{
+        margin-top: 20px;
+        margin-left: -80px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: 'Playball';
+        color: #5d3021;
+        font-size: 260%;
+        width: 200%;
+    }
+    
+    .container-mediacao h4{
+        margin-top: 10px;
+        margin-left: -7%;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: 'Playball';
+        color: #5d3021;
+        font-size: 170%;
+        width: 150%;
+    }
+    
+    .container-mediacao p{
+        margin-top: -5px;
+        font-size: 120%;
+        text-indent: 40px;
+        font-family: 'Nunito Sans';
+        color: #5d3021;
+        width: 240%;
+        text-align: justify;
+        margin-left: -145px;
+    }
+    
+    #foto-mediadora{
+        height: 550px;
+        margin-left: -41%;
+    }
+
+    .container-celebra-cartorio {
+        margin-top: 2%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 280px;
+    }
+    .container-celebra-cartorio h2{
+        margin-top: 20px;
+        margin-left: -90px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: 'Playball';
+        color: #5d3021;
+        font-size: 260%;
+        width: 200%;
+    }
+    .container-celebra-cartorio p{
+        margin-top: -5px;
+        font-size: 120%;
+        text-indent: 40px;
+        font-family: 'Nunito Sans';
+        color: #5d3021;
+        width: 240%;
+        text-align: justify;
+        margin-left: -146px;
+    }
+    
+    .container-celebra-cartorio img{
+        height: 550px;
+        margin-left: -41%;
+    }
+
+    .container-celebra-outro-local {
+        margin-top: 2%;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 280px;
+    }
+    .container-celebra-outro-local h2{
+        margin-top: 20px;
+        margin-left: -90px;
+        text-align: center;
+        margin-bottom: 20px;
+        font-family: 'Playball';
+        color: #5d3021;
+        font-size: 260%;
+        width: 200%;
+    }
+    .container-celebra-outro-local p{
+        margin-top: -5px;
+        font-size: 120%;
+        text-indent: 40px;
+        font-family: 'Nunito Sans';
+        color: #5d3021;
+        width: 240%;
+        text-align: justify;
+        margin-left: -146px;
+    }
+    
+    .container-celebra-outro-local img{
+        height: 550px;
+        margin-left: -41%;
+    }
+
+
+    footer h2{
+        margin-left: 0;
+        font-size: 30px;
+        font-weight: bolder;
+        padding-bottom: 5px;
+    }
+    footer p{
+        margin-left: 0;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+
+/*-------------RESOLUÇÃO SMARTPHONE ATUAL EM PÉ------------*/
+
 @media screen and (max-width: 768px){ /* Resolução smartphone */
     html{
         height: -webkit-fill=available;
