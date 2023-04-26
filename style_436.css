@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px){ /* Resolução smartphone */
+@media only screen and (max-width: 436px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
@@ -26,12 +26,11 @@
         margin-left: -60px;
     }
 
-    .nav-container{
+    .div-container {
         background: #facdb4;
         display: flex;
         justify-content: space-between;
-        padding: 0 20px;
-        width: 100%;
+        align-items: center;
     }
 
     #logo{

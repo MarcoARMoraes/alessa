@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style_361.css">
+    <link rel="stylesheet" href="style_436.css">
     <link rel="stylesheet" href="style_768.css">
+    <link rel="stylesheet" href="style_1200.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <link id="pagestyle" rel="stylesheet" type="text/css" href="style_768.css">
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="style.css">
     <script>
       function layoutHandler(){
         var styleLink = document.getElementById("pagestyle");
-        if(window.innerWidth < 397){
+        if(window.innerWidth < 436){
+          styleLink.setAttribute("href", "style_436.css");
+        } else if(window.innerWidth < 768){
           styleLink.setAttribute("href", "style_768.css");
         } else if(window.innerWidth < 1200){
-          styleLink.setAttribute("href", "style_768.css");
+          styleLink.setAttribute("href", "style_1200.css");
         } else {
             styleLink.setAttribute("href", "style.css");
         }
@@ -28,6 +29,9 @@
       window.onresize = layoutHandler;
       layoutHandler();
     </script>  
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <!--Font Awesome CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -43,33 +47,29 @@
 <body>
 
   
-  <nav>
-    <div class='container'>
+  <div class='div-container'>
+    <nav class="nav-container">
       <img src="imagens/balanca_transparente.png" width="70" height="90" class="d-inline-block align-top" alt="">
       <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-      <i class="fa fa-bars"></i>
-      </label>
       <label id="logo">
       Alessa Borges
       </label>
-    <ul>
-      <li><a href="index.html">Inicio</a></li>
-      <li><a href="sobre_mim.html">Sobre</a></li>
-      
-        <!--<ul>
-          <li><a href="no_cartorio.html">No cartorio</a></li>
-          <li><a href="outro_local.html">Outro local</a></li>
-          <li><a href="mediacao.html"></a>Mediacao</li>
-          </ul>
-        -->
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+        </label>
+      <ul>
+        <li><a href="index.html">In&iacute;cio</a></li>
+        <li><a href="sobre_mim.html">Sobre</a></li>
       </li>
       <li><a href="contato.html">Contato</a></li>
-    </ul>
+      </ul>
   </nav>
+</div>
   
   <div class="container-sobre-mim">
-    <img id="juiza_jardim" src="imagens/juiza_jardim_novo.png" alt="">
+    <div class="resize-jardim">
+      <img id="juiza_jardim" src="imagens/juiza_jardim_novo.png" alt="">
+    </div>
     <h2>Sobre mim</h2>
     <p>Formada em Direito pela UNESA/RJ em 2009. <strong>Ju&iacute;za de Paz</strong> nomeada pelo TJ/RJ com atua&ccedil;&atilde;o na &aacute;rea desde 2017. <strong>Mediadora internacional</strong> certificada pelo Instituto de Certifica&ccedil;&atilde;o e Forma&ccedil;&atilde;o Mediadores Lus&oacute;fonos (ICFML). <strong>P&oacute;s-graduada em Negocia&ccedil;&atilde;o, Media&ccedil;&atilde;o e Resolu&ccedil;&atilde;o de Conflitos</strong> pela Universidade Cat&oacute;lica Portuguesa - Porto, Portugal em parceria com o ICFML, desde 2020. <strong>Mediadora Judicial</strong> do CEJUSC/RJ e extrajudicial ad hoc.  Atuei como escrevente do 5? RCPN/RJ por 10 anos.</p>
   </div>

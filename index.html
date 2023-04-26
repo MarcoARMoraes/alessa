@@ -7,13 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="style_361.css">
+    <link rel="stylesheet" href="style_463.css">
     <link rel="stylesheet" href="style_768.css">
+    <link rel="stylesheet" href="style_1200.css">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="large.css">
+    <script>
+      function layoutHandler(){
+        var styleLink = document.getElementById("pagestyle");
+        if(window.innerWidth < 900){
+          styleLink.setAttribute("href", "mobile.css");
+        } else if(window.innerWidth < 1200){
+          styleLink.setAttribute("href", "medium.css");
+        } else {
+            styleLink.setAttribute("href", "large.css");
+        }
+      }
+      window.onresize = layoutHandler;
+      layoutHandler();
+    </script>
 
     <!--Font Awesome CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -23,35 +40,30 @@
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
 
+
+
     <title>Alessa Borges - Ju&iacuteza de Paz</title>
 </head>
 <body>
 
-  
-  <nav>
-    <div class='container'>
+  <div class='div-container'>
+    <nav class="nav-container">
       <img src="imagens/balanca_transparente.png" width="70" height="90" class="d-inline-block align-top" alt="">
       <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-      <i class="fa fa-bars"></i>
-      </label>
       <label id="logo">
       Alessa Borges
       </label>
-    <ul>
-      <li><a href="index.html">In&iacute;cio</a></li>
-      <li><a href="sobre_mim.html">Sobre</a></li>
-      
-        <!--<ul>
-          <li><a href="no_cartorio.html">No cartorio</a></li>
-          <li><a href="outro_local.html">Outro local</a></li>
-          <li><a href="mediacao.html"></a>Mediacao</li>
-          </ul>
-        -->
+      <label for="check" class="checkbtn">
+        <i class="fa fa-bars"></i>
+        </label>
+      <ul>
+        <li><a href="index.html">In&iacute;cio</a></li>
+        <li><a href="sobre_mim.html">Sobre</a></li>
       </li>
       <li><a href="contato.html">Contato</a></li>
-    </ul>
+      </ul>
   </nav>
+</div>
   
   
       <div class="slider">
@@ -99,21 +111,21 @@
 
     <div class="container-textos">
         <div>
-          <h4 id="h4-textos" class="item-textos">No cart&oacute;rio oficial</h4>
+          <h4 id="h4-textos" class="item-textos">Casamento Civil <br> (No cart&oacute;rio oficial)</h4>
           <p id="p-textos" class="item-textos">Trata-se das cerim&ocirc;nias celebradas em cart&oacute;rio oficial</p>
           <a href="no_cartorio.html">        
             <button class="item-textos" style="font-size: 12px; border-radius: 5px;" id="btn-textos">SAIBA MAIS</button>
           </a>
         </div>
         <div>
-          <h4 id="h4-textos" class="item-textos">Outros ambientes</h4>
+          <h4 id="h4-textos" class="item-textos">Casamento civil fora da sede <br> (em outros ambientes)</h4>
           <p id="p-textos" class="item-textos">Cerimonias em ambientes escolhidos pelo casal</p>
           <a href="outro_local.html">
             <button style="font-size: 12px; border-radius: 5px;" class="item-textos" id="btn-textos">SAIBA MAIS</button>
           </a>
         </div>
         <div>
-          <h4 id="h4-textos" class="item-textos">Mediar conflitos</h4>
+          <h4 id="h4-textos" class="item-textos">Media&ccedil;&atilde;o de conflitos</h4>
           <p id="p-textos" class="item-textos">Sou mediadora de conflitos, certificada oficialmente</p>
           <a href="mediacao.html">        
             <button class="item-textos" style="font-size: 12px; border-radius: 5px;" id="btn-textos">SAIBA MAIS</button>

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px){ /* Resolução smartphone */
+@media only screen and (min-width : 769px) and (max-width: 1200px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
@@ -30,20 +30,20 @@
         background: #facdb4;
         display: flex;
         justify-content: space-between;
-        padding: 0 20px;
-        width: 100%;
+        align-items: center;
     }
 
     #logo{
         color: #5d3021;
-        font-size: 40px;
+        font-size: 45px;
         
         line-height: 80px;
-        padding: 0 100px;
-        font-weight: bold;
         
+        font-weight: bold;
+
         margin-top: 4px;
         font-family: 'Pinyon Script', cursive;
+        margin-left: -6%;
     }
     
     nav div img {
@@ -52,10 +52,7 @@
         margin-top: 2%;
         
     }
-    nav {
-        margin-top: auto;
-        width: 100%;
-    }
+    
     ul {
         position: fixed;
         width: 100%;
@@ -86,6 +83,7 @@
     .slider {
         display: none;
     }
+    
     .container-textos {
         margin-left: -95px;
         margin-top: 10px;
@@ -109,7 +107,8 @@
         text-align: center;
         align-items: center;
         font-family: 'Playball',sans-serif;
-        font-size: 26px;
+        font-size: 30px;
+        width: 70%;
     }
 
     #p-textos {

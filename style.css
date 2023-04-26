@@ -6,13 +6,16 @@
     --fonte-bonita: 'Lobster'
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
-    padding-top: -20px;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    
 }
 
 button{
@@ -25,8 +28,7 @@ button{
     width: 125px;
     height: 50px;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 button:hover{
@@ -36,25 +38,43 @@ button:hover{
     border: #ab7e6a;
 }
 
+.checkbtn {
+    font-size: 30px;
+    color: #5d3021;
+    float: right;
+    line-height: 80px;
+    
+    cursor: pointer;
+    display: none;
+}
+#check { /* Identificador no input checbox */
+    display: none;
+}
+
 .btn-txt{
     display: flexbox;
 }
 
 /* Início navbar */
-nav {
-    background: #facdb4;
-    height: 95px;
-    width: 100%;
-    justify-content: center;
+nav{
+    margin: auto;
 }
+
+.nav-container{
+    background: #facdb4;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
 
 #logo {
     color: #5d3021;
     font-size: 40px;
     line-height: 80px;
-    padding: 0 100px;
+    
     font-weight: bold;
-    margin-left: -8%;
+
     margin-top: 4px;
     font-family: 'Pinyon Script', cursive;
 }
@@ -68,13 +88,12 @@ nav ul {
 nav ul li {
     display: inline-block; /* Coloca as palavras na mesma linha */
     line-height: 80px;
-    margin: 0 5px;
 }
 
 nav ul li a{
     color: #5d3021;
     font-size: 17px;
-    padding: 7px 13px;
+    padding: 7px;
     text-transform: uppercase;
     font-family: 'Nunito Sans', serif;
     font-weight: bold;
@@ -85,30 +104,13 @@ nav ul li a:hover{
     background: #ab7e6a;
 }
 
-/*-----SUBMENU NAVBAR----*/
-
-
-
-/*-----FIM SUBMENU NAVBAR----*/
-
 a.active, a:hover {
     transition: .5s;
 }
 
-.checkbtn {
-    font-size: 30px;
-    color: #5d3021;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-#check { /* Identificador no input checbox */
-    display: none;
-}
 
-/* FIM NAVBAR*/
+
+
 
 /* INÍCIO DO BANNER */
 .slider {
@@ -237,7 +239,7 @@ a.active, a:hover {
     align-items: center;
     font-family: 'Playball',sans-serif;
     text-align: center;
-    width: 120px;
+    width: 350px;
 }
 
 #p-textos {
