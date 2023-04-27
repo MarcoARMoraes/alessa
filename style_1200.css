@@ -1,4 +1,4 @@
-@media only screen and (min-width : 769px) and (max-width: 1200px){ /* Resolução smartphone */
+@media only screen and (min-width : 769px) and (max-width: 1350px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
