@@ -1,4 +1,4 @@
-@media only screen and (max-width: 361px){ /* Resolução smartphone */
+@media only screen and (max-width: 375px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
@@ -14,6 +14,8 @@
         margin: 0;
         padding: 0;
         height: -webkit-fill=available;
+        background-image: url(imagens/Aliancas_fundo_transparente.png);
+        background-repeat: no-repeat;
     }
     
     button{
@@ -35,7 +37,7 @@
 
     #logo{
         color: #5d3021;
-        font-size: 40px;
+        font-size: 25px;
         
         line-height: 80px;
         padding: 0 100px;
@@ -43,13 +45,14 @@
         
         margin-top: 4px;
         font-family: 'Pinyon Script', cursive;
+        margin-left: -21%;
     }
     
-    nav div img {
-        height: 70px;
+    div nav img {
+        height: 75px;
         width: 50px;
         margin-top: 2%;
-        
+        margin-left: 2%;
     }
     nav {
         margin-top: auto;
@@ -71,7 +74,7 @@
         line-height: 30px;
     }
     nav ul li a {
-        font-size: 24px;
+        font-size: 14px;
         font-weight: bold;
     }
     a:active, a:hover {
@@ -96,7 +99,7 @@
     }
 
     .container-textos div{
-        height: 900px;
+        height: 800px;
         display: contents;    
     }
 
@@ -108,22 +111,23 @@
         text-align: center;
         align-items: center;
         font-family: 'Playball',sans-serif;
-        font-size: 26px;
+        font-size: 20px;
     }
 
     #p-textos {
         text-align: center;
         margin-left: 11%;
         width: 170px;
-        font-size: 16px;
+        font-size: 14px;
         font-family: sans, serif;
         font-family: 'Nunito Sans',sans-serif;
-        margin-top: 3%;
+        margin-top: 1%;
     }
 
     #btn-textos{
-        margin-top: 14%;
-        margin-left: 96px;
+        height: 50%;
+        margin-top: 1%;
+        margin-left: 76px;
     }
 
     .container-sociais {
@@ -210,11 +214,11 @@
         margin-top: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 260%;
+        font-size: 160%;
     }
     .container-sobre-mim p{
         margin-left: -23%;
-        font-size: 120%;
+        font-size: 90%;
         text-align: justify;
         text-indent: 40px;
         font-family: 'Nunito Sans';
@@ -224,8 +228,8 @@
     
     .container-sobre-mim img{
         margin-top: 20px;
-        height: 550px;
-        margin-left: -19%;
+        height: 250px;
+        margin-left: -14%;
     }
 
     .container-mediacao {
@@ -233,44 +237,44 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 280px;
+        width: 100px;
     }
 
     .container-mediacao h2{
         margin-top: 20px;
-        margin-left: -80px;
+        margin-left: -20px;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 260%;
-        width: 200%;
+        font-size: 120%;
+        width: 250%;
     }
     
     .container-mediacao h4{
         margin-top: 10px;
-        margin-left: -7%;
+        margin-left: -17%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 170%;
-        width: 150%;
+        font-size: 90%;
+        width: 250%;
     }
     
     .container-mediacao p{
         margin-top: -5px;
-        font-size: 120%;
+        font-size: 80%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 240%;
+        width: 290%;
         text-align: justify;
-        margin-left: -145px;
+        margin-left: -50px;
     }
     
     #foto-mediadora{
-        height: 550px;
+        height: 250px;
         margin-left: -41%;
     }
 
@@ -279,32 +283,32 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 280px;
+        width: 120px;
     }
     .container-celebra-cartorio h2{
         margin-top: 20px;
-        margin-left: -90px;
+        margin-left: -27px;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 260%;
+        font-size: 120%;
         width: 200%;
     }
     .container-celebra-cartorio p{
         margin-top: -5px;
-        font-size: 120%;
+        font-size: 80%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 240%;
+        width: 260%;
         text-align: justify;
-        margin-left: -146px;
+        margin-left: -62px;
     }
     
     .container-celebra-cartorio img{
-        height: 550px;
-        margin-left: -41%;
+        height: 250px;
+        margin-left: -35%;
     }
 
     .container-celebra-outro-local {
@@ -312,44 +316,44 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 280px;
+        width: 120px;
     }
     .container-celebra-outro-local h2{
         margin-top: 20px;
-        margin-left: -90px;
+        margin-left: -27px;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 260%;
+        font-size: 120%;
         width: 200%;
     }
     .container-celebra-outro-local p{
         margin-top: -5px;
-        font-size: 120%;
+        font-size: 80%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 240%;
+        width: 260%;
         text-align: justify;
-        margin-left: -146px;
+        margin-left: -62px;
     }
     
     .container-celebra-outro-local img{
-        height: 550px;
-        margin-left: -41%;
+        height: 250px;
+        margin-left: -35%;
     }
 
 
     footer h2{
         margin-left: 0;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bolder;
         padding-bottom: 5px;
     }
     footer p{
         margin-left: 0;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
 }

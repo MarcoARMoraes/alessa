@@ -1,4 +1,4 @@
-@media only screen and (max-width: 436px){ /* Resolução smartphone */
+@media only screen and (min-width: 376px) and (max-width: 425px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
@@ -14,6 +14,8 @@
         margin: 0;
         padding: 0;
         height: -webkit-fill=available;
+        background-image: url(imagens/Aliancas_fundo_transparente.png);
+        background-repeat: no-repeat;
     }
     
     button{
@@ -35,12 +37,12 @@
 
     #logo{
         color: #5d3021;
-        font-size: 40px;
+        font-size: 30px;
         
         line-height: 80px;
         padding: 0 100px;
         font-weight: bold;
-        
+        margin-left: -16%;
         margin-top: 4px;
         font-family: 'Pinyon Script', cursive;
     }
@@ -71,7 +73,7 @@
         line-height: 30px;
     }
     nav ul li a {
-        font-size: 24px;
+        font-size: 18px;
         font-weight: bold;
     }
     a:active, a:hover {
@@ -92,28 +94,28 @@
         display: grid;
         grid-template-columns: 1fr;
         padding: -5%;
-        row-gap: 20px;
+        row-gap: -10px;
     }
 
     .container-textos div{
         height: 900px;
-        display: contents;    
+        display: contents;   
     }
 
     #h4-textos {
         color: #5d3021;
-        margin-left: 10%;
+        margin-left: 20%;
         margin-top: 4%;
         justify-content: center;
         text-align: center;
         align-items: center;
         font-family: 'Playball',sans-serif;
-        font-size: 26px;
+        font-size: 22px;
     }
 
     #p-textos {
         text-align: center;
-        margin-left: 11%;
+        margin-left: 20%;
         width: 170px;
         font-size: 16px;
         font-family: sans, serif;
@@ -210,11 +212,12 @@
         margin-top: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 260%;
+        font-size: 200%;
     }
+
     .container-sobre-mim p{
         margin-left: -23%;
-        font-size: 120%;
+        font-size: 95%;
         text-align: justify;
         text-indent: 40px;
         font-family: 'Nunito Sans';
@@ -224,7 +227,7 @@
     
     .container-sobre-mim img{
         margin-top: 20px;
-        height: 550px;
+        height: 300px;
         margin-left: -19%;
     }
 
@@ -233,7 +236,7 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 280px;
+        width: 75%;
     }
 
     .container-mediacao h2{
@@ -243,35 +246,34 @@
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 260%;
-        width: 200%;
+        font-size: 150%;
     }
     
     .container-mediacao h4{
         margin-top: 10px;
-        margin-left: -7%;
+        margin-left: -24%;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 170%;
-        width: 150%;
+        font-size: 120%;
+        width: 120%;
     }
     
     .container-mediacao p{
         margin-top: -5px;
-        font-size: 120%;
+        font-size: 90%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 240%;
+        width: 120%;
         text-align: justify;
-        margin-left: -145px;
+        margin-left: -85px;
     }
     
     #foto-mediadora{
-        height: 550px;
-        margin-left: -41%;
+        height: 320px;
+        margin-left: -21%;
     }
 
     .container-celebra-cartorio {
@@ -279,32 +281,33 @@
         align-items: center;
         justify-content: center;
         justify-items: center;
-        width: 280px;
+        width: 200px;
     }
+
     .container-celebra-cartorio h2{
         margin-top: 20px;
-        margin-left: -90px;
+        margin-left: -95px;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 260%;
+        font-size: 150%;
         width: 200%;
     }
     .container-celebra-cartorio p{
         margin-top: -5px;
-        font-size: 120%;
+        font-size: 90%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 240%;
+        width: 180%;
         text-align: justify;
-        margin-left: -146px;
+        margin-left: -74px;
     }
     
     .container-celebra-cartorio img{
-        height: 550px;
-        margin-left: -41%;
+        height: 320px;
+        margin-left: -35%;
     }
 
     .container-celebra-outro-local {
@@ -316,40 +319,40 @@
     }
     .container-celebra-outro-local h2{
         margin-top: 20px;
-        margin-left: -90px;
+        margin-left: -105px;
         text-align: center;
         margin-bottom: 20px;
         font-family: 'Playball';
         color: #5d3021;
-        font-size: 260%;
-        width: 200%;
+        font-size: 150%;
+        width: 150%;
     }
     .container-celebra-outro-local p{
         margin-top: -5px;
-        font-size: 120%;
+        font-size: 90%;
         text-indent: 40px;
         font-family: 'Nunito Sans';
         color: #5d3021;
-        width: 240%;
+        width: 130%;
         text-align: justify;
-        margin-left: -146px;
+        margin-left: -76px;
     }
     
     .container-celebra-outro-local img{
-        height: 550px;
-        margin-left: -41%;
+        height: 320px;
+        margin-left: -25%;
     }
 
 
     footer h2{
         margin-left: 0;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bolder;
         padding-bottom: 5px;
     }
     footer p{
         margin-left: 0;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: bold;
     }
 }

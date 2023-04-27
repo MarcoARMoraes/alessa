@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_361.css">
-    <link rel="stylesheet" href="style_463.css">
+    <link rel="stylesheet" href="style_436.css">
     <link rel="stylesheet" href="style_768.css">
     <link rel="stylesheet" href="style_1200.css">
 
@@ -20,11 +20,11 @@
       function layoutHandler(){
         var styleLink = document.getElementById("pagestyle");
         if(window.innerWidth < 397){
-          styleLink.setAttribute("href", "style_768.css");
+          styleLink.setAttribute("href", "small.css");
         } else if(window.innerWidth < 1200){
-          styleLink.setAttribute("href", "style_768.css");
+          styleLink.setAttribute("href", "medium.css");
         } else {
-            styleLink.setAttribute("href", "style.css");
+            styleLink.setAttribute("href", "large.css");
         }
       }
       window.onresize = layoutHandler;
@@ -80,10 +80,10 @@
 
 <div class="container-icoes-sociais">
 <a href="https://www.facebook.com/profile.php?id=100010094765489" target="_blank">
-  <img id="img-facebook" src="imagens/facebook_marrom.png" alt="">
+  <img id="img-facebook" src="imagens/facebook_marrom_semfundo.png" alt="">
 </a>
 <a href="https://www.instagram.com/juizadepazalessaborges/" target="_blank">
-  <img id="img-instagram" src="imagens/inta_marrom.png" alt="">
+  <img id="img-instagram" src="imagens/insta_marrom_semfundo.png" alt="">
 </a>
 </div>
 

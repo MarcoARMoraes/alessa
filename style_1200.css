@@ -14,6 +14,8 @@
         margin: 0;
         padding: 0;
         height: -webkit-fill=available;
+        background-image: url(imagens/Aliancas_fundo_transparente.png);
+        background-repeat: no-repeat;
     }
     
     button{
@@ -89,7 +91,7 @@
         margin-top: 10px;
         margin-bottom: 10px;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
         padding: -5%;
         row-gap: 20px;
     }
@@ -113,7 +115,6 @@
 
     #p-textos {
         text-align: center;
-        margin-left: 11%;
         width: 170px;
         font-size: 16px;
         font-family: sans, serif;

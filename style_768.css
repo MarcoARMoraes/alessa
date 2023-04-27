@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px){ /* Resolução smartphone */
+@media only screen and (min-width: 436px) and (max-width: 768px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
@@ -14,6 +14,8 @@
         margin: 0;
         padding: 0;
         height: -webkit-fill=available;
+        background-image: url(imagens/Aliancas_fundo_transparente.png);
+        background-repeat: no-repeat;
     }
     
     button{
@@ -39,9 +41,9 @@
         font-size: 40px;
         
         line-height: 80px;
-        padding: 0 100px;
+        padding: 0;
         font-weight: bold;
-        
+        margin-left: -11%;
         margin-top: 4px;
         font-family: 'Pinyon Script', cursive;
     }

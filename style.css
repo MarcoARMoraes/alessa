@@ -15,6 +15,7 @@ body {
     font-family: sans-serif;
     justify-content: center;
     align-items: center;
+    background-image: url(imagens/Aliancas_fundo_transparente.png);
     background-repeat: no-repeat;
 }
 
@@ -64,13 +65,13 @@ nav{
     background: #facdb4;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 0px;
 }
 
 
 #logo {
     color: #5d3021;
-    font-size: 40px;
+    font-size: 50px;
     line-height: 80px;
     
     font-weight: bold;
@@ -225,10 +226,9 @@ a.active, a:hover {
 .container-textos {
     margin-top: 10px;
     margin-bottom: 200px;
-    margin-left: 0;
     display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-auto-rows: 70px;
+    grid-template-columns: 10px 200px 100px;
+    grid-auto-rows: 100px;
     justify-items: center;
     justify-content: space-evenly;
 }
@@ -239,11 +239,11 @@ a.active, a:hover {
     align-items: center;
     font-family: 'Playball',sans-serif;
     text-align: center;
-    width: 350px;
+    width: 180px;
 }
 
 #p-textos {
-    margin-left: -10%;
+    margin-left: 9%;
     text-align: center;
     width: 150px;
     font-size: 15px;
@@ -252,6 +252,7 @@ a.active, a:hover {
 }
 
 #btn-textos{
+    margin-left: 18%;
     margin-top: 30px;
 }
 
