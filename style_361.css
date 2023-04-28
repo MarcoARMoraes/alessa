@@ -144,6 +144,7 @@
         margin-top: 10px;
         margin-left: 29%;
         padding-bottom: 30px;
+        width: 10%;
     }
     .container-icoes-sociais{
         display: grid;
@@ -157,6 +158,7 @@
     }
     #img-instagram {
         height: 60px;
+        margin-left: -25%;
     }
 
     .container-contatos{
@@ -173,7 +175,7 @@
     }
     
     .container-contatos p{
-        margin-left: 0px;
+        margin-left: 15%;
         font-weight: bold;
         color:#5d3021;
         margin-top: 25%;
@@ -193,7 +195,7 @@
     
     .icone-whatsapp{
         height: 62px;
-        margin-left: 46%;
+        margin-left: 41%;
         margin-top: 10px;
         margin-bottom: 10%;
     }
