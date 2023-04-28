@@ -1,4 +1,4 @@
-@media only screen and (min-width : 769px) and (max-width: 1350px){ /* Resolução smartphone */
+@media only screen and (min-width : 769px) and (max-width: 1200px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
@@ -71,7 +71,7 @@
         line-height: 30px;
     }
     nav ul li a {
-        font-size: 24px;
+        font-size: 26px;
         font-weight: bold;
     }
     a:active, a:hover {

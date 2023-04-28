@@ -89,13 +89,13 @@
         display: none;
     }
     .container-textos {
-        margin-left: -95px;
+        margin-left: -45px;
         margin-top: 10px;
         margin-bottom: 10px;
         display: grid;
         grid-template-columns: 1fr;
         padding: -5%;
-        row-gap: 20px;
+        row-gap: 10px;
     }
 
     .container-textos div{
@@ -116,18 +116,19 @@
 
     #p-textos {
         text-align: center;
-        margin-left: 11%;
+        margin-left: 11.5%;
         width: 170px;
         font-size: 14px;
         font-family: sans, serif;
         font-family: 'Nunito Sans',sans-serif;
-        margin-top: 1%;
+        margin-top: -8%;
+        margin-bottom: -10%;
     }
 
     #btn-textos{
-        height: 50%;
-        margin-top: 1%;
-        margin-left: 76px;
+        height: 40%;
+        margin-top: -10%;
+        margin-left: 46px;
     }
 
     .container-sociais {
@@ -146,12 +147,13 @@
     }
     .container-icoes-sociais{
         display: grid;
-        grid-template-columns: 52% auto;
+        grid-template-columns: 60% auto;
         margin-left: 25%;
     }
     #img-facebook {
         height: 55px;
         margin-bottom: 13%;
+        margin-left: -10%;
     }
     #img-instagram {
         height: 60px;
@@ -175,6 +177,7 @@
         font-weight: bold;
         color:#5d3021;
         margin-top: 25%;
+        width: 70%;
     }
     
     .container-contatos a{

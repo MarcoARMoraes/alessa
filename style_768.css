@@ -1,4 +1,4 @@
-@media only screen and (min-width: 436px) and (max-width: 768px){ /* Resolução smartphone */
+@media only screen and (min-width: 516px) and (max-width: 768px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
@@ -52,8 +52,8 @@
         height: 70px;
         width: 50px;
         margin-top: 2%;
-        
     }
+
     nav {
         margin-top: auto;
         width: 100%;
@@ -74,7 +74,7 @@
         line-height: 30px;
     }
     nav ul li a {
-        font-size: 24px;
+        font-size: 18px;
         font-weight: bold;
     }
     a:active, a:hover {
@@ -121,11 +121,11 @@
         font-size: 16px;
         font-family: sans, serif;
         font-family: 'Nunito Sans',sans-serif;
-        margin-top: 3%;
+        margin-top: -1%;
     }
 
     #btn-textos{
-        margin-top: 14%;
+        margin-top: -17%;
         margin-left: 96px;
     }
 

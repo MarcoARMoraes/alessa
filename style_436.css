@@ -1,4 +1,4 @@
-@media only screen and (min-width: 376px) and (max-width: 425px){ /* Resolução smartphone */
+@media only screen and (min-width: 376px) and (max-width: 515px){ /* Resolução smartphone */
     * {
         padding:0;
         margin:0;
@@ -28,19 +28,20 @@
         margin-left: -60px;
     }
 
-    .div-container {
-        background: #facdb4;
+    .nav-container{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 0 10px;
     }
+
 
     #logo{
         color: #5d3021;
         font-size: 30px;
         
         line-height: 80px;
-        padding: 0 100px;
+        padding: 0 -100px;
         font-weight: bold;
         margin-left: -16%;
         margin-top: 4px;
@@ -88,7 +89,7 @@
         display: none;
     }
     .container-textos {
-        margin-left: -95px;
+        margin-left: -83px;
         margin-top: 10px;
         margin-bottom: 10px;
         display: grid;
@@ -98,13 +99,17 @@
     }
 
     .container-textos div{
-        height: 900px;
+        height: 500px;
         display: contents;   
+    }
+
+    .divisoria-textos{
+        height: 40px;
     }
 
     #h4-textos {
         color: #5d3021;
-        margin-left: 20%;
+        margin-left: 15%;
         margin-top: 4%;
         justify-content: center;
         text-align: center;
@@ -120,12 +125,12 @@
         font-size: 16px;
         font-family: sans, serif;
         font-family: 'Nunito Sans',sans-serif;
-        margin-top: 3%;
+        margin-top: -2%;
     }
 
     #btn-textos{
-        margin-top: 14%;
-        margin-left: 96px;
+        margin-top: -4%;
+        margin-left: 86px;
     }
 
     .container-sociais {
@@ -144,12 +149,13 @@
     }
     .container-icoes-sociais{
         display: grid;
-        grid-template-columns: 52% auto;
+        grid-template-columns: 59% auto;
         margin-left: 25%;
     }
     #img-facebook {
         height: 55px;
         margin-bottom: 13%;
+        margin-left: -10%;
     }
     #img-instagram {
         height: 60px;
@@ -169,10 +175,11 @@
     }
     
     .container-contatos p{
-        margin-left: 0px;
+        margin-left: 1%;
         font-weight: bold;
         color:#5d3021;
         margin-top: 25%;
+        width: 70%;
     }
     
     .container-contatos a{
